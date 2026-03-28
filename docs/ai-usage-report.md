@@ -1,24 +1,28 @@
-# The Use of AI Report
+# AI Usage Report
 
-## Tools I Used and Use Cases
-1- Using ChatGPT: Helped me build the HTML structure, write responsive CSS, and add JavaScript interactivity (dark mode + form message).
-2- Using GitHub: Used for version control, commits, and publishing with GitHub Pages.
+## AI Tools Used
+- ChatGPT
 
-## Benefits & Challenges
-**Benefits I got**
-1- It Helped me start faster with a clean structure.
-2- It Suggested responsive design and dark mode styling.
+## How AI Was Used
+- Helped review the Assignment 2 instructions and convert them into a practical implementation plan
+- Suggested improvements to make the portfolio more interactive and modern
+- Helped generate and refine JavaScript for tab switching, project filtering, saved preferences, and form validation
+- Helped rewrite the README and technical documentation in a clearer structure
 
-**Challenges I faced**
-1- I had to make sure file paths were correct (css/styles.css and js/script.js).
-2- I tested the site and fixed small mistakes (IDs and links).
+## What I Changed Myself
+- Reviewed all generated code before keeping it
+- Adjusted the content and layout to match my portfolio
+- Chose which features to include so they fit the assignment requirements
+- Tested the interactive behavior and kept only the parts that worked correctly
 
-## Learning Outcomes
-1- I Learned how to structure a project into folders (css, js, docs, assets).
-2- I Learned how to toggle dark mode using JavaScript + a CSS class.
-3- I Learned how to handle a form submit event without a backend.
+## Learning Outcome
+Through AI-assisted development, I improved my understanding of:
+- `localStorage` for saving user preferences
+- event listeners and DOM updates in JavaScript
+- form validation and user feedback messages
+- how to design a portfolio with stronger user interaction
 
-## Responsible Use and Modifications
-1- I reviewed every AI suggestion and tested it in the browser.
-2- I modified text, styling, and structure to match assignment requirements.
-3- I made sure I understand the code before submitting.
+## Responsible Use
+- AI was used as a support tool, not as a replacement for understanding
+- I checked the code and documentation before using them
+- I made edits to the AI suggestions so the final result reflects my own work and understanding
