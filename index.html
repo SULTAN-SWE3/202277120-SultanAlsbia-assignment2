@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeBtn">Toggle Theme</button>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p><strong>A beginner web developer building simple, responsive websites.</strong></p>
+      <p>
+        I am learning HTML, CSS, and JavaScript to create clean and user-friendly web pages.
+        I enjoy improving my skills step by step by building small projects.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div>
+        <img src="assets/images/project1.png" alt="Project 1 Image" width="100%" />
+        <h3>Personal Portfolio Website</h3>
+        <p>Description:
+         This is a responsive personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and 
+        contact information. I created this project to practice front-end development fundamentals and build the foundation for my professional portfolio.
+        </p>
+      </div>
+
+      <div>
+        <img src="assets/images/project2.png" alt="Project 2 Image" width="100%" />
+        <h3>Simple Landing Page</h3>
+        <p>Description:
+        This is a responsive landing page designed using HTML and CSS 
+        with a clean layout and modern styling. I created this project to strengthen my skills in CSS layout techniques such as Flexbox, Grid, and media queries.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <form id="contactForm">
+        <label>
+          Name
+          <input type="text" id="name" placeholder="Your Name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="email" placeholder="Your Email" required />
+        </label>
+
+        <label>
+          Message
+          <textarea id="userMessage" placeholder="Your Message" required></textarea>
+        </label>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <p id="message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 My Name</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
