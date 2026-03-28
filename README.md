@@ -43,7 +43,7 @@ This project is my Assignment 2 interactive portfolio website for SWE363. It con
 AI tools were used to help improve the site structure, refine interactive JavaScript behavior, strengthen validation logic, and rewrite the required documentation. A full explanation is available in `docs/ai-usage-report.md`.
 
 ## Optional Deployment
-You can deploy this project using GitHub Pages, Netlify, or Vercel after pushing it to your public repository.
+Demo link: https://sultan-swe3.github.io/202277120-SultanAlsbia-assignment2/
 
 ## Author
 Sultan Alsbia
